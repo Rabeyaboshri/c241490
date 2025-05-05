@@ -1,0 +1,130 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px  40px 20px 60px;
+}
+.logo{
+    display: flex;
+}
+.nav-buttons a{
+    justify-content:space-between;
+    margin: 10px;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .popular tour section{
+    margin: 40px 20px 20px 40px;
+  }
+  .popular-tours-section {
+    padding: 4rem 1rem;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  @media(min-width: 768px) {
+    .container {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .text-area {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    border-left: 4px solid #1e40af;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tour-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    color: #374151;
+  }
+  
+  .read-more-btn {
+    background-color: #f97316;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #ea580c;
+  }
+  
+  .image-area {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-area img {
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+  * Footer Styles */
+.travel-footer {
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.footer-divider {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 30px 0 20px 0;
+}
+
+.copyright {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+  
+
+ 
+
